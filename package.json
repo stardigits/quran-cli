@@ -1,0 +1,22 @@
+{
+  "name": "quran-cli",
+  "version": "0.0.1",
+  "description": "Javascript command line interface (CLI) for querying, searching and showing Quran text in many languages. The source of quranic text files are taken from http://tanzil.net.",
+  "main": "quran-cli.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stardigits/quran-cli.git"
+  },
+  "keywords": [
+    "quran-cli"
+  ],
+  "author": "stardigits",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stardigits/quran-cli/issues"
+  },
+  "homepage": "https://github.com/stardigits/quran-cli#readme"
+}
