@@ -1,5 +1,12 @@
 # quran-cli
 
+## Installation
+
+Just download, go to the folder the do `npm install`
+```
+npm install
+```
+
 ## config.json
 Configuration file for quran-cli
 
