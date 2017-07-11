@@ -1,5 +1,8 @@
 # quran-cli
 
+![quran-cli](https://nodei.co/npm/quran-cli.png)
+(https://nodei.co/npm/quran-cli)
+
 ## Installation
 
 Just download, go to the folder the do `npm install`
