@@ -1,10 +1,18 @@
 {
   "name": "quran-cli",
-  "version": "0.0.1",
-  "description": "Javascript command line interface (CLI) for querying, searching and showing Quran text in many languages. The source of quranic text files are taken from http://tanzil.net.",
+  "version": "0.0.12",
+  "description": "Nodejs command line interface (CLI) for querying, searching and showing Quran text in many languages. The source of quranic text files are taken from http://tanzil.net.",
   "main": "quran-cli.js",
+  "bin": {
+    "quran-cli": "bin/quran-cli.js"
+  },
   "scripts": {
-    "test": "test"
+    "test": "node test",
+    "patch-release": "npm version patch && npm publish && git push --follow-tags",
+    "build": "...",
+    "git-commit": "git add -A . && git commit -a -m 'gh-pages update'",
+    "git-push": "git push origin gh-pages --force && git checkout master",
+    "deploy": "npm run build && npm run git-commit && npm run git-push"
   },
   "repository": {
     "type": "git",
@@ -21,6 +29,6 @@
   "homepage": "https://github.com/stardigits/quran-cli#readme",
   "dependencies": {
     "elasticlunr": "^0.9.5",
-    "levi": "^2.1.7"
+    "stdio": "^0.2.7"
   }
 }

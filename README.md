@@ -50,5 +50,3 @@ quran-cli config           Show configuration
 ```
 
 (c) July 2017 by Stardigits (aka Ciwidey Mengaji)
-
-
