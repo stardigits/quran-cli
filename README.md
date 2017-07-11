@@ -1,7 +1,6 @@
 # quran-cli
 
-![quran-cli](https://nodei.co/npm/quran-cli.png)
-(https://nodei.co/npm/quran-cli)
+[![quran-cli](https://nodei.co/npm/quran-cli.png)](https://nodei.co/npm/quran-cli)
 
 ## Installation
 
