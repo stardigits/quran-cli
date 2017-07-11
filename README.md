@@ -4,14 +4,14 @@
 
 ## Installation
 
-Just download, go to the folder the do `npm install`
+Just download, go to the folder then do `npm install`
 ```
 npm install -g quran-cli
 quran-cli <command>
 ```
 ## Examples
 
-Here're the working example
+Here're the working examples
 
 #### Show chapter/surah
 ```
